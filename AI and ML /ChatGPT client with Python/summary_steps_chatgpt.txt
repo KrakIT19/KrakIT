@@ -1,0 +1,23 @@
+###***Resumen de pasos a seguir para el chatGPT client***###
+
+#Puedes ver el tutorial completo en el siguiente enlace:
+https://youtu.be/ko-ngEiNOvI
+
+#Crear el entorno virtual en Python:
+python -m venv chatbotgpt
+
+#Activamos el entorno virtual:
+<nombre_del_entorno_virtual>\Scripts\activate
+
+#Una vez dentro del entorno virtual ya activado instalamos las siguientes librerias:
+pip install openai -U
+pip install python-dotenv
+
+#URL de OPEN para crear cuenta:
+https://platform.openai.com
+
+#Creamos el archivo .env y pegamos la API key y guardamos cambios:
+OPENAI_API_KEY="<your API key here>"
+
+#Creaamos un archivo.py dentro del entorno virtual donde pegaremos el codigo
+ej: chatbot.py
