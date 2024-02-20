@@ -21,7 +21,7 @@ while True:
                 {"role": "system", "content": "You are a chatbot knowledgeable in Cisco network technology"},
                 {"role": "user", "content": f"{question}"},
                 #{"role": "system", "content": "Provide a step-by-step guide."},
-                {"role": "assistant", "content": "As a Cisco-focused assistant, I can help you with queries related to network configurations, Cisco products, troubleshooting, and more."}
+                #{"role": "assistant", "content": "As a Cisco-focused assistant, I can help you with queries related to network configurations, Cisco products, troubleshooting, and more."}
             ]
         )
 
